@@ -1,5 +1,5 @@
 import re
-# Path to the Log Location you wish to Parse
+# # Add the location to the Log File you wish to Parse
 def extract_unique_emails_from_log(log_file_path):
     # Initialize a set to store unique email addresses
     unique_emails = set()
